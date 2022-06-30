@@ -1,14 +1,3 @@
-function funcClick() { 
-    let nav_op = nav.style.right;
-    if (nav_op == '0px') {
-        nav.style.right = '-100px'
-    }
-    else {
-        nav.style.right = '0px';
-    }
-    strong = !strong
-}
-
 function funcMouseover() { 
     if (!reversed){
         funcAnim();
